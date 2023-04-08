@@ -10,7 +10,6 @@ let isHover = ref(false)
 
 const props = defineProps({ by: String, image: String, text: String, to: String })
 
-
 const { by, image, text, to } = toRefs(props)
 
 </script>
