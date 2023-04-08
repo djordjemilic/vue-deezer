@@ -6,17 +6,12 @@ import SideMenuItem from './components/SideMenuItem.vue'
 </script>
 
 <template>
-  <div
-    id="TopNav"
-    class="fixed right-0 flex items-center justify-between w-[calc(100%-240px)] h-[56px] border-b border-b-[#32323D]"
-  >
+  <div id="TopNav"
+    class="fixed right-0 flex items-center justify-between w-[calc(100%-240px)] h-[56px] border-b border-b-[#32323D]">
     <div class="flex items-center w-full h-full">
       <Magnify class="pl-6" fillColor="#7E7E88" :size="22" />
-      <input
-        class="p-3 bg-transparent outline-none font-[300] placeholder-[#BEBEC7] text-white w-full max-w-xl"
-        placeholder="Search"
-        type="text"
-      />
+      <input class="p-3 bg-transparent outline-none font-[300] placeholder-[#BEBEC7] text-white w-full max-w-xl"
+        placeholder="Search" type="text" />
     </div>
     <div class="flex items-center pr-10">
       <div class="mr-4 p-1 hover:bg-gray-600 rounded-full cursor-pointer">
@@ -29,7 +24,7 @@ import SideMenuItem from './components/SideMenuItem.vue'
   <div id="SideNav" class="fixed w-[240px] bg-[#191922] h-[100svh] border-r border-r-[#32323D]">
     <div class="w-full pl-6 pt-3 cursor-pointer">
       <RouterLink to="/">
-        <img width="130" src="/images/deezer-logo.png" alt="" />
+        <img width="130" src="/images/deezer-logo.png" alt="Logo" />
       </RouterLink>
     </div>
     <div class="mt-[53px]"></div>
